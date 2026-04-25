@@ -1,0 +1,26 @@
+{
+  "title": "Fix RBAC \u00e2\u20ac\u201d ServiceAccount Missing Permissions",
+  "description": "A pod using a custom ServiceAccount is failing because the SA lacks permission to list pods. Create the required Role and RoleBinding.",
+  "difficulty": "medium",
+  "time": "15",
+  "details": {
+    "steps": [
+      {
+        "title": "Solve the Task",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh",
+        "courseData": "foreground.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

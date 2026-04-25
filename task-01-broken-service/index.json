@@ -1,0 +1,26 @@
+{
+  "title": "Fix Broken Service Routing",
+  "description": "A Kubernetes Service is not routing traffic to any pods. The selector is misconfigured. Find and fix it.",
+  "difficulty": "easy",
+  "time": "15",
+  "details": {
+    "steps": [
+      {
+        "title": "Solve the Task",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh",
+        "courseData": "foreground.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

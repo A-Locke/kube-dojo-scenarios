@@ -1,0 +1,26 @@
+{
+  "title": "Fix Deployment With Bad Image",
+  "description": "A Deployment references a container image that does not exist. Pods are stuck in ImagePullBackOff. Fix it.",
+  "difficulty": "easy",
+  "time": "15",
+  "details": {
+    "steps": [
+      {
+        "title": "Solve the Task",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh",
+        "courseData": "foreground.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
