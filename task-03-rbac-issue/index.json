@@ -1,5 +1,5 @@
 {
-  "title": "Fix RBAC \u00e2\u20ac\u201d ServiceAccount Missing Permissions",
+  "title": "Fix RBAC — ServiceAccount Missing Permissions",
   "description": "A pod using a custom ServiceAccount is failing because the SA lacks permission to list pods. Create the required Role and RoleBinding.",
   "difficulty": "medium",
   "time": "15",

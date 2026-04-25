@@ -1,5 +1,5 @@
 {
-  "title": "Fix Pod Scheduling \u00e2\u20ac\u201d Taint and Toleration",
+  "title": "Fix Pod Scheduling — Taint and Toleration",
   "description": "All worker nodes have a taint that prevents the deployment pods from being scheduled. Fix the scheduling issue so pods run.",
   "difficulty": "medium",
   "time": "15",
